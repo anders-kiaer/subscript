@@ -15,7 +15,7 @@ jobs:
       - name: 'Gource Action'
         uses: anders-kiaer/action-gource@3044016a1c6fc35a1762cc24892b581d3fabae64
         with:
-          gource_seconds_per_day: 0.3
+          gource_seconds_per_day: 0.2
           gource_start_date: "2023-01-01"
           gource_stop_date: "2024-02-18"
           avatars_url: ./avatars
